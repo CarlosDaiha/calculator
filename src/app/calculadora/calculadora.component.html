@@ -1,0 +1,23 @@
+<div class="calculator">
+    <div class="screen" id="screen">{{screen}}</div>
+    <ul id="buttons" class="buttons">
+        <li><button type="button" value="clear" (click)="keypress($event)">C</button></li>
+        <li><button type="button" value="%" (click)="keypress($event)">%</button></li>
+        <li><button type="button" value="/" (click)="keypress($event)">/</button></li>
+        <li><button type="button" value="*" (click)="keypress($event)">x</button></li>    
+        <li><button type="button" value="7" (click)="keypress($event)">7</button></li>
+        <li><button type="button" value="8" (click)="keypress($event)">8</button></li>
+        <li><button type="button" value="9" (click)="keypress($event)">9</button></li>
+        <li><button type="button" value="-" (click)="keypress($event)">-</button></li>
+        <li><button type="button" value="4" (click)="keypress($event)">4</button></li>
+        <li><button type="button" value="5" (click)="keypress($event)">5</button></li>
+        <li><button type="button" value="6" (click)="keypress($event)">6</button></li>
+        <li><button type="button" value="+" (click)="keypress($event)">+</button></li>
+        <li><button type="button" value="1" (click)="keypress($event)">1</button></li>
+        <li><button type="button" value="2" (click)="keypress($event)">2</button></li>
+        <li><button type="button" value="3" (click)="keypress($event)">3</button></li>
+        <li><button type="button" value="equal" class="equal tall" (click)="keypress($event)">=</button></li>
+        <li><button type="button" value="0" class="wide shift" (click)="keypress($event)">0</button></li>
+        <li><button type="button" value="." class="shift" (click)="keypress($event)">.</button></li>
+    </ul>
+</div>
